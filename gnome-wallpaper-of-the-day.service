@@ -1,0 +1,9 @@
+[Unit]
+Description=Change GNOME3 wallpaper to Bing's Picture of the Day as a daily a timer
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/gnome-wallpaper-of-the-day.py
+
+[Install]
+WantedBy=graphical.target
