@@ -3,7 +3,7 @@ Description=Change GNOME3 wallpaper to Bing's Picture of the Day as a daily a ti
 
 [Service]
 Type=simple
-ExecStart=%h/.local/bin/gnome-wallpaper-of-the-day.py
+ExecStart=%h/.local/bin/gnome_wallpaper_of_the_day.py
 
 [Install]
 WantedBy=graphical.target
