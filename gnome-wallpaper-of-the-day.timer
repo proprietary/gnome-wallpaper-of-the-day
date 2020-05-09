@@ -3,6 +3,7 @@ Description=Change GNOME3 wallpaper to Bing's Picture of the Day as a daily a ti
 
 [Timer]
 OnCalendar=daily
+OnActiveSec=15
 Persistent=true
 Unit=gnome-wallpaper-of-the-day.service
 
